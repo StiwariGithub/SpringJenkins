@@ -10,7 +10,7 @@ public class SpringJenkinsApplication {
 
 	public static Logger logger= LoggerFactory.getLogger(SpringJenkinsApplication.class);
 	public void init(){
-		logger.debug("Inside inint::");
+		logger.debug("Inside in int 1st app::");
 	}
 
 	public static void main(String[] args) {
