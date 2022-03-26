@@ -10,11 +10,11 @@ public class SpringJenkinsApplication {
 
 	public static Logger logger= LoggerFactory.getLogger(SpringJenkinsApplication.class);
 	public void init(){
-		logger.debug("Inside in int 1st app::");
+		logger.info("Inside in int 1st app::");
 	}
 
 	public static void main(String[] args) {
-		logger.debug("Application Started::");
+		logger.info("Application Started::");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
